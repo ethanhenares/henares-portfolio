@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+header,
+footer {
+  padding: 1rem 2rem;
+  background: #eee;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+main {
+  min-height: 70vh;
+  padding: 2rem;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  max-width: 300px;
+}
+
+.project-card img {
+  max-width: 100%;
+}
